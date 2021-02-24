@@ -1,0 +1,47 @@
+.counter{
+            
+    height: 300px;
+    width: 500px;
+    background-color: lightskyblue;
+    border-radius: 10%;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+#bd{
+    padding-top: 30px;
+    align-items: center;
+}
+.input{
+    border: none;
+    
+    font-size:90px ;
+    width: 50%;
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+    padding-left:0px;
+}
+.butn{
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 20%;
+    color: azure;
+    outline:none;
+}
+#plus{
+    height: 50px;
+    width: 50px;
+    background-color:#2c9f45;
+}
+#minus{
+    height: 50px;
+    width: 50px;
+    background-color: #be0027;
+    
+}
+#reset{
+    height: 50px;
+    width: 100px;
+    background-color: #000000;
+}
