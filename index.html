@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        
+    </style>
+    <script>
+        //using jQuery 
+        $(document).ready(function(){
+            var num=0;
+            $("#plus").click(function(){
+                $("#input").val(++num);
+            });
+            $("#minus").click(function(){
+                $("#input").val(--num);
+            });
+            $("#reset").click(function(){
+                $("#input").val(0);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<center>
+   <div id="main"> 
+    <div id="counter">
+      <div id="bd">
+          <h1 style="font-size:45px;">Counter</h1>
+          <input id="input" type="number" value="0" disabled >
+      </div>
+    </div>
+    <button class="butn" id="plus">Increment(+)</button>
+    <button class="butn" id="minus">Decrement(-)</button>
+    <button class="butn" id="reset">Reset(0)</button>
+   </div> 
+</center>
+</body>
+</html>
